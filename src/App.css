@@ -18,4 +18,8 @@ body{
   margin-left: 8.5%;
 }
 
+.show{
+  background: rgb(28,26,60);
+  background: linear-gradient(90deg, rgba(28,26,60,1) 100%, rgba(20,2,34,1) 100%, rgba(0,212,255,1) 100%);
+}
 
