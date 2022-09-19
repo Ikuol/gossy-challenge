@@ -8,9 +8,9 @@ const Entry = () => {
                         <div className='container mx-auto bgHome'>
                                 <div className='flex flex-col lg:flex-row justify-center items-center gap-x-[150px]'>
                                         <div className='text-left pl-[10px]'>
-                                                <div className='rounded-2xl max-w-[300px] bg-gray-600 p-1 mb-6 pl-1 pr-3'>
+                                                <div data-aos='zoom-in' data-aos-duration='2000' className='rounded-2xl max-w-[300px] bg-gray-600 p-1 mb-6 pl-1 pr-3'>
                                                 <div className='flex items-center justify-between'>
-                                                        <div data-aos='zoom-in' data-aos-duration='2000' className='bg-white rounded-full uppercase text-gray-400 text-xs py-1 px-4'>70% save</div>
+                                                        <div data-aos='zoom-in' data-aos-duration='3000' className='bg-white rounded-full uppercase text-gray-400 text-xs py-1 px-4'>70% save</div>
                                                         <div className='text-xs text-white ml-3 lg:ml-0'>for the best black friday deals</div>
                                                 </div>
                                                 </div>
@@ -28,8 +28,8 @@ const Entry = () => {
                                                 </div>
                                         </div>
                                         </div>
-                                        <div data-aos='zoom-in' data-aos-duration='2000' className=''>
-                                        <img src={ hero } alt='error' className='object-cover w-full lg:w-[80%]' />
+                                        <div data-aos='zoom-in' data-aos-duration='2000' className='p-[15px]'>
+                                                <img src={ hero } alt='error' className='object-cover w-full lg:w-[100%]' />
                                         </div>
                                 </div>
                         </div>

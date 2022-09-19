@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
 *{
   margin:0;
   padding:0;
@@ -7,6 +7,7 @@
 body{
   background: rgb(28,26,60);
   background: linear-gradient(90deg, rgba(28,26,60,1) 100%, rgba(20,2,34,1) 100%, rgba(0,212,255,1) 100%);
+  font-family: 'Oxanium', cursive;
 }
 
 
@@ -21,5 +22,46 @@ body{
 .show{
   background: rgb(28,26,60);
   background: linear-gradient(90deg, rgba(28,26,60,1) 100%, rgba(20,2,34,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+#sec button{
+  font-size: 1.8rem;
+  transition: all .5s;
+}
+
+
+#but{
+  background-color: #00000000;
+  border-radius: 100px;
+  border: 3px solid #9ca3af;
+  padding: 1.2rem;
+  transition: all .5s;
+}
+#but #butt{
+  position: absolute;
+  margin-right: -50%;
+  z-index: -2;
+  opacity: 0;
+  transition: all .5s;
+}
+#but #butt.showing{
+  display: block;
+  position: relative;
+  margin: 0%;
+  width: fit-content;
+  z-index: 1;
+  opacity: 1;
+}
+
+
+
+.state{
+  background: rgb(91, 9, 146);
+  color: white;
+}
+
+.nstate{
+  background: white;
+  color: black;
 }
 

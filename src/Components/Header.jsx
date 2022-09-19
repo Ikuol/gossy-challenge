@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from "react-router-dom";
 import logo from '../assets/logo.svg';
 
 const header = () => {
@@ -18,7 +19,7 @@ const header = () => {
     <div>
          <header className='py-5'>
                 <div className='container mx-auto'>
-                        <div className='flex justify-between pl-[10px] lg:gap-x-[600px] lg:justify-center'>
+                        <div className='flex justify-between pl-[10px] lg:gap-x-[635px] lg:justify-center'>
                         
                             <img src={logo} alt="error" />
                             
@@ -32,7 +33,7 @@ const header = () => {
                                     </ul>
                                 </nav>
                                 <div className=''>
-                                    {/* <a href="#" className='text-white capitalize cursor-pointer'>login</a> */}
+                                    <NavLink to="/" className='text-white capitalize cursor-pointer'>login</NavLink> 
                                     <span className='mx-6 text-white/20'> | </span>
                                     <button className='text-white bg-blue-500 rounded-3xl px-4 py-1 capitalize'>register</button>
                                 </div>
@@ -50,7 +51,7 @@ const header = () => {
                             <li className="text-white text-2xl">About</li>
                             <li className="text-white text-2xl">Contact</li>
                             <div className="flex items-center justify-center">
-                                {/* <a href="#" class="text-white text-2xl capitalize cursor-pointer">login</a> */}
+                                 <NavLink to="/" className="text-white text-2xl capitalize cursor-pointer">login</NavLink> 
                                 <span className="mx-6 text-white/20"> | </span>
                                 <button className="text-white text-2xl bg-blue-500 rounded-3xl px-4 py-1 capitalize">register</button>
                             </div>
