@@ -1,14 +1,8 @@
-import React from 'react'
-import Header from './Components/Header';
-import Entry from './Components/Entry';
-import Stat from './Components/Stat';
-import Reason from './Components/Reason';
-import Form from './Components/Form';
-import Block from './Components/Block';
-import Afford from './Components/Afford';
-import Subcription from './Components/Subcription';
-import Footer from './Components/Footer'
+import React from 'react';
+import { Header,Entry,Stat,Reason,Form,Block,Afford,Subcription,Footer } from './Components';
 import './App.css';
+
+
 const view = () => {
 
   return (
@@ -33,6 +27,7 @@ const view = () => {
                                 <Subcription />
                                 
                                 <Footer />
+
                          </div>
                 </div>
         </div>
